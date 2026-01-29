@@ -1,0 +1,25 @@
+curl -H "Accept: application/vnd.github+json" \
+https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls
+
+[
+  {
+    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1",
+    "id": 987654321,
+    "number": 1,
+    "state": "open",
+    "title": "Bug fix: corrected simple-interest.sh calculation",
+    "user": {
+      "login": "shienamariecabiling119-lang"
+    },
+    "head": {
+      "label": "shienamariecabiling119-lang:main",
+      "ref": "main",
+      "repo": {
+        "full_name": "shienamariecabiling119-lang/mcino-Introduction-to-Git-and-GitHub"
+      }
+    },
+    "base": {
+      "label": "ibm-developer-skills-network:main"
+    }
+  }
+]
